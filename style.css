@@ -30,8 +30,14 @@ li {
 a {
   text-decoration: none;
 }
+button{
+  outline: none;
+  border: none;
+  background: none;
+}
 td {
   border: none !important;
+  padding: 0 !important;
 }
 
 .border-blue {
@@ -54,7 +60,7 @@ td {
 .inner-tab {
   background: white;
 }
-.inner-tab img {
+.inner-tab .check {
   top: 5%;
   right: 5%;
 }
@@ -73,12 +79,18 @@ td {
   width: 50%;
 }
 
-.fees img {
+.fees .check {
   position: absolute;
   top: 0;
   right: 0;
   width: 20% !important;
 }
+.applications-tab table tr{
+  /* border-collapse: separate;
+  border-spacing: 0 1em; */
+  margin-bottom: 0.5rem;
+}
+
 
 /* YEARLY COMPLIANCES TAB */
 .yearly-compliances-tab {
@@ -89,6 +101,9 @@ td {
 }
 .yearly-compliances-tab table {
   border-collapse: separate;
-  border-spacing: 0 0.7em;
+  border-spacing: 0 1em;
+}
+.yearly-compliances-tab .col-first tr{
+  margin-bottom: 3rem !important;
 }
 /* YEARLY COMPLIANCES TAB */

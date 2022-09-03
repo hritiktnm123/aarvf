@@ -36,12 +36,13 @@
                 <div class="tab active p-4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
                   <h5 class="mb-3 fw-bold">Application Form Status</h5>
                   <div class="inner-tab p-3 rounded position-relative">
-                    <img src="./assets/check.png" alt="check" class="position-absolute">
+                    <!-- <img src="./assets/check.png" alt="check" class="position-absolute"> -->
+                    <button class="check position-absolute text-success fs-2"><i class="fa-solid fa-circle-check"></i></button>
                     <h6 class="text-primary">Eligible</h6>
                     <div class="application-links py-5 gx-3">
-                      <a href="#">&#60 Accepted &#62</a>
-                      <a href="#">&#60 Hold &#62</a>
-                      <a href="#">&#60 Rejected &#62</a>
+                      <a href="#">&#60Accepted&#62</a>
+                      <a href="#">&#60Hold&#62</a>
+                      <a href="#">&#60Rejected&#62</a>
                     </div>
                   </div>
     
@@ -100,25 +101,51 @@
                   <div class="wrapper py-4 px-2 row gx-2 d-flex justify-content-between">
                   <div class="col-md-7">
                     <div class="wrapper">
-                      <h5 class="fw-bold">Course Completion Status</h5>
-                      <div class="inner-tab rounded p-3 mt-3">        
+                      <h5 class="mb-3 fw-bold">Course Completion Status</h5>
+                      <div class="inner-tab rounded p-3">        
                           <div class="course_table"> 
                             <table class="table table-responsive">
                               <tbody> 
-                                <tr> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>Batch Enrollement Date</td>
                                   <td>&#60 Date &#62</td>
-                                  <td><img src="./assets/circle.png" alt="circle"></td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                                 </tr>
-                                <tr> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>Batch Enrollement Date</td>
                                   <td>&#60 Date &#62</td>
-                                  <td><img src="./assets/circle.png" alt="circle"></td>
+                                  <td><button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button></td>
                                 </tr>
-                                <tr> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>Batch Enrollement Date</td>
                                   <td>&#60 Date &#62</td>
-                                  <td><img src="./assets/check.png" alt="circle"></td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="wrapper">
+                      <h5 class="mb-3 fw-bold">Course Completion Status</h5>
+                      <div class="inner-tab rounded p-3">        
+                          <div class="course_table"> 
+                            <table class="table table-responsive">
+                              <tbody> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
+                                  <td>Batch Enrollement Date</td>
+                                  <td>&#60 Date &#62</td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
+                                </tr>
+                                <tr class="d-flex justify-content-between align-items-center"> 
+                                  <td>Batch Enrollement Date</td>
+                                  <td>&#60 Date &#62</td>
+                                  <td><button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button></td>
+                                </tr>
+                                <tr class="d-flex justify-content-between align-items-center"> 
+                                  <td>Batch Enrollement Date</td>
+                                  <td>&#60 Date &#62</td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -131,46 +158,20 @@
                         <div class="course_table"> 
                           <table class="table table-responsive">
                             <tbody> 
-                              <tr> 
+                              <tr class="d-flex justify-content-between align-items-center"> 
                                 <td>Batch Enrollement Date</td>
                                 <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
+                                <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                               </tr>
-                              <tr> 
+                              <tr class="d-flex justify-content-between align-items-center"> 
                                 <td>Batch Enrollement Date</td>
                                 <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
+                                <td><button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button></td>
                               </tr>
-                              <tr> 
+                              <tr class="d-flex justify-content-between align-items-center"> 
                                 <td>Batch Enrollement Date</td>
                                 <td>&#60 Date &#62</td>
-                                <td><img src="./assets/check.png" alt="circle"></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="wrapper">
-                    <h5 class="mb-3 fw-bold">Course Completion Status</h5>
-                    <div class="inner-tab rounded p-3">        
-                        <div class="course_table"> 
-                          <table class="table table-responsive">
-                            <tbody> 
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
-                              </tr>
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
-                              </tr>
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/check.png" alt="circle"></td>
+                                <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                               </tr>
                             </tbody>
                           </table>
@@ -179,33 +180,33 @@
                   </div>
                   </div>
                   <div class="col-md-5 fees">
-                    <h5>Fees Status</h5>
+                    <h5 class="fw-bold">Fees Status</h5>
                     <div class="inner-tab rounded p-3 mt-3">
                       <ul class="h-100 d-flex flex-column">
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
+                        <li class="enrollement-fee position-relative mb-4">
+                          <h6 class="fw-normal">Enrollement Fee</h6>
+                          <small>&#60Date&#62</small>
+                          <button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button>
                         </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
+                        <li class="enrollement-fee position-relative mb-4">
+                          <h6 class="fw-normal">Enrollement Fee</h6>
+                          <small>&#60Date&#62</small>
+                          <button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button>
                         </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
+                        <li class="enrollement-fee position-relative mb-4">
+                          <h6 class="fw-normal">Enrollement Fee</h6>
+                          <small>&#60Date&#62</small>
+                          <button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button>
                         </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
+                        <li class="enrollement-fee position-relative mb-4">
+                          <h6 class="fw-normal">Enrollement Fee</h6>
+                          <small>&#60Date&#62</small>
+                          <button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button>
                         </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
+                        <li class="enrollement-fee position-relative mb-4">
+                          <h6 class="fw-normal">Enrollement Fee</h6>
+                          <small>&#60Date&#62</small>
+                          <button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button>
                         </li>
                       </ul>
                     </div>
@@ -216,7 +217,7 @@
 
                 <div class="tab-pane fade border-blue yearly-compliances-tab" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                   <div class="row justify-content-center g-4 align-items-center h-100 p-4">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-first">
                       <div class="inner-tab p-3">
                         <h5 class="mb-2">CEP Status</h5>
                         <div class="course_table"> 
@@ -259,9 +260,9 @@
                           <div class="course_table"> 
                             <table class="table table-responsive">
                               <tbody> 
-                                <tr class="d-flex justify-content-between"> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>Batch Enrollement Date</td>
-                                  <td><img src="./assets/circle.png" alt="circle" width="70%"></td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -274,13 +275,13 @@
                           <div class="course_table"> 
                             <table class="table table-responsive">
                               <tbody> 
-                                <tr class="d-flex justify-content-between"> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>April to September</td>
-                                  <td><img src="./assets/circle.png" alt="circle" width="70%"></td>
+                                  <td><button class="check text-warning fs-3"><i class="fa-regular fa-circle-xmark"></i></button></td>
                                 </tr>
-                                <tr class="d-flex justify-content-between"> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>September to March</td>
-                                  <td><img src="./assets/circle.png" alt="circle" width="70%"></td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -295,7 +296,7 @@
                               <tbody> 
                                 <tr class="d-flex justify-content-between"> 
                                   <td>April To March</td>
-                                  <td><img src="./assets/check.png" alt="circle" width="70%"></td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -309,120 +310,119 @@
 
                 <div class="tab-pane fade border-blue" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                   <div class="wrapper py-4 px-2 row gx-2 d-flex justify-content-between">
-                  <div class="col-md-7">
+                    <div class="col-md-7">
+                      <div class="wrapper">
+                        <h5 class="mb-3 fw-bold">Course Completion Status</h5>
+                        <div class="inner-tab rounded p-3">        
+                            <div class="course_table"> 
+                              <table class="table table-responsive">
+                                <tbody> 
+                                  <tr class="d-flex justify-content-between align-items-center"> 
+                                    <td>Batch Enrollement Date</td>
+                                    <td>&#60 Date &#62</td>
+                                    <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
+                                  </tr>
+                                  <tr class="d-flex justify-content-between align-items-center"> 
+                                    <td>Batch Enrollement Date</td>
+                                    <td>&#60 Date &#62</td>
+                                    <td><button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button></td>
+                                  </tr>
+                                  <tr class="d-flex justify-content-between align-items-center"> 
+                                    <td>Batch Enrollement Date</td>
+                                    <td>&#60 Date &#62</td>
+                                    <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <h5 class="mb-3 fw-bold">Course Completion Status</h5>
+                        <div class="inner-tab rounded p-3">        
+                            <div class="course_table"> 
+                              <table class="table table-responsive">
+                                <tbody> 
+                                  <tr class="d-flex justify-content-between align-items-center"> 
+                                    <td>Batch Enrollement Date</td>
+                                    <td>&#60 Date &#62</td>
+                                    <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
+                                  </tr>
+                                  <tr class="d-flex justify-content-between align-items-center"> 
+                                    <td>Batch Enrollement Date</td>
+                                    <td>&#60 Date &#62</td>
+                                    <td><button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button></td>
+                                  </tr>
+                                  <tr class="d-flex justify-content-between align-items-center"> 
+                                    <td>Batch Enrollement Date</td>
+                                    <td>&#60 Date &#62</td>
+                                    <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                        </div>
+                      </div>
                     <div class="wrapper">
                       <h5 class="mb-3 fw-bold">Course Completion Status</h5>
                       <div class="inner-tab rounded p-3">        
                           <div class="course_table"> 
                             <table class="table table-responsive">
                               <tbody> 
-                                <tr> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>Batch Enrollement Date</td>
                                   <td>&#60 Date &#62</td>
-                                  <td><img src="./assets/circle.png" alt="circle"></td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                                 </tr>
-                                <tr> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>Batch Enrollement Date</td>
                                   <td>&#60 Date &#62</td>
-                                  <td><img src="./assets/circle.png" alt="circle"></td>
+                                  <td><button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button></td>
                                 </tr>
-                                <tr> 
+                                <tr class="d-flex justify-content-between align-items-center"> 
                                   <td>Batch Enrollement Date</td>
                                   <td>&#60 Date &#62</td>
-                                  <td><img src="./assets/check.png" alt="circle"></td>
+                                  <td><button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button></td>
                                 </tr>
                               </tbody>
                             </table>
                           </div>
                       </div>
                     </div>
-                  <div class="wrapper">
-                    <h5 class="mb-3 fw-bold">Course Completion Status</h5>
-                    <div class="inner-tab rounded p-3">        
-                        <div class="course_table"> 
-                          <table class="table table-responsive">
-                            <tbody> 
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
-                              </tr>
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
-                              </tr>
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/check.png" alt="circle"></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
+                    </div>
+                    <div class="col-md-5 fees">
+                      <h5 class="fw-bold">Fees Status</h5>
+                      <div class="inner-tab rounded p-3 mt-3">
+                        <ul class="h-100 d-flex flex-column">
+                          <li class="enrollement-fee position-relative mb-4">
+                            <h6 class="fw-normal">Enrollement Fee</h6>
+                            <small>&#60Date&#62</small>
+                            <button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button>
+                          </li>
+                          <li class="enrollement-fee position-relative mb-4">
+                            <h6 class="fw-normal">Enrollement Fee</h6>
+                            <small>&#60Date&#62</small>
+                            <button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button>
+                          </li>
+                          <li class="enrollement-fee position-relative mb-4">
+                            <h6 class="fw-normal">Enrollement Fee</h6>
+                            <small>&#60Date&#62</small>
+                            <button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button>
+                          </li>
+                          <li class="enrollement-fee position-relative mb-4">
+                            <h6 class="fw-normal">Enrollement Fee</h6>
+                            <small>&#60Date&#62</small>
+                            <button class="check text-warning fs-3"><i class="fa-regular fa-circle"></i></button>
+                          </li>
+                          <li class="enrollement-fee position-relative mb-4">
+                            <h6 class="fw-normal">Enrollement Fee</h6>
+                            <small>&#60Date&#62</small>
+                            <button class="check text-success fs-3"><i class="fa-solid fa-circle-check"></i></button>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div class="wrapper">
-                    <h5 class="mb-3 fw-bold">Course Completion Status</h5>
-                    <div class="inner-tab rounded p-3">        
-                        <div class="course_table"> 
-                          <table class="table table-responsive">
-                            <tbody> 
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
-                              </tr>
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/circle.png" alt="circle"></td>
-                              </tr>
-                              <tr> 
-                                <td>Batch Enrollement Date</td>
-                                <td>&#60 Date &#62</td>
-                                <td><img src="./assets/check.png" alt="circle"></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="col-md-5 fees">
-                    <h5 class="mb-3">Fees Status</h5>
-                    <div class="inner-tab rounded p-3">
-                      <ul class="h-100 d-flex flex-column">
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
-                        </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
-                        </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
-                        </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
-                        </li>
-                        <li class="enrollement-fee position-relative mb-3">
-                          <h6>Enrollement Fee</h6>
-                          <small>&#60 Date &#62</small>
-                          <img src="./assets/check.png" alt="check">
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                
               </div>
             </div>
           
